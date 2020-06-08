@@ -6,7 +6,7 @@ import subprocess
 filename = sys.argv[1]
 
 with open(filename) as f:
-    for line in file.readlines():
+    for line in f.readlines():
         string = line.strip()
         name = "jane"
         newname = string.replace(name, "jdoe")
